@@ -1,13 +1,14 @@
-package Bundle::CPANPLUS;
+package Bundle::CPANPLUS::Dependencies;
 
-$VERSION = "0.01";
+$VERSION = "0.02";
 
+1;
 
 __END__
 
 =head1 NAME
 
-Bundle::CPANPLUS -- All modules required & desired by CPANPLUS
+Bundle::CPANPLUS::Dependencies -- All modules required & desired by CPANPLUS
 
 =head1 SYNOPSIS
 
@@ -33,7 +34,7 @@ Compress::Zlib
 
 Digest::MD5
 
-File::Fetch 0.06
+File::Fetch 0.07
 
 IO::Zlib 1.04
 
@@ -55,7 +56,7 @@ Module::CoreList 1.97
 
 Module::Load 0.10
 
-Module::Load::Conditional 0.06
+Module::Load::Conditional 0.07
 
 Module::Pluggable 2.4
 
@@ -71,7 +72,7 @@ Storable
 
 Term::ReadLine::Perl
 
-Term::UI 0.04
+Term::UI 0.05
 
 Test::More
 
