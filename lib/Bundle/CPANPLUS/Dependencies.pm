@@ -1,6 +1,6 @@
 package Bundle::CPANPLUS::Dependencies;
 
-$VERSION = "0.02";
+$VERSION = "0.03";
 
 1;
 
@@ -31,6 +31,8 @@ Archive::Zip
 Bundle::CPANPLUS::Test::Reporter
 
 Compress::Zlib
+
+CPANPLUS::Dist::Build 0.01
 
 Digest::MD5
 
